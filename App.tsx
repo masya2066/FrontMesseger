@@ -1,24 +1,11 @@
-import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import { Button } from "react-native-elements";
+import AuthNavigation from "./app/navigation/AuthNavigation";
+import {NavigationContainer} from "@react-navigation/native";
 
-// import { Button as RNButton } from "react-native-elements";
-export default function App() {
+export default function App({navigation}: any) {
   return (
-    <View style={styles.container}>
-      <Text>O</Text>
-      <Button></Button>
-      <StatusBar style="auto" />
-    </View>
+      <NavigationContainer>
+        <AuthNavigation></AuthNavigation>
+      </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
