@@ -29,7 +29,7 @@ const authStyle = StyleSheet.create({
     },
     inputContainer: {
         padding:0,
-        marginVertical: '25%',
+        marginBottom: '25%',
         minWidth: '70%',
         maxWidth: '70%',
         height: 50,
@@ -44,16 +44,16 @@ const authStyle = StyleSheet.create({
         padding: 0,
         color: '#C0C0C0',
         fontSize: 20,
-        fontWeight: '400',
+        fontWeight: '100',
         width: '100%',
         height: '100%',
     },
     langIcon: {
-        flex: 1,
-        width: '100%',
+        zIndex: 50,
+        minWidth: '100%',
+        minHeight: '15%',
         paddingRight: "10%",
         paddingTop: "15%",
-        height: '20%',
         justifyContent: 'flex-start',
         alignItems: 'flex-end'
     }
