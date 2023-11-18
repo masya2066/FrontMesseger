@@ -1,61 +1,106 @@
 import {StyleSheet} from "react-native";
 
+
 const authStyle = StyleSheet.create({
     background: {
         flex: 1,
-        backgroundColor: "#202020",
+        backgroundColor: "transparent",
         alignItems: "center",
         justifyContent: 'flex-end',
         minWidth: '100%',
         minHeight: '100%'
     },
+    logoContainer: {
+        flex: 1,
+        alignItems: 'flex-start',
+        justifyContent: 'flex-start'
+    },
     authBtnContainer: {
-        backgroundColor: "#000",
-        minWidth: '85%',
-        height: 50,
-        borderRadius: 20,
-        marginBottom: '10%',
-        marginTop: '15%',
+        marginTop: 110,
+        minWidth: 250,
+        height: 45,
+        marginBottom: 115,
     },
     authBtn: {
-        backgroundColor: '#B266FF',
+        backgroundColor: 'transparent',
         width: '100%',
         height: '100%',
+        borderStyle: 'solid',
+        borderColor: '#FFFFFF',
+        borderWidth: 1,
+        borderRadius: 10,
     },
     titleStyle: {
         color: '#E0E0E0',
         fontWeight: '600',
         fontSize: 20
     },
-    inputContainer: {
-        padding:0,
-        marginBottom: '25%',
-        minWidth: '70%',
-        maxWidth: '70%',
-        height: 50,
+
+    countryContainer: {
+        zIndex: -2,
+        flexDirection: 'row',
+        marginBottom: 4,
+        width: 198,
+        height: 40,
+        marginTop: 9,
         alignItems: 'center',
+        justifyContent: 'center',
         borderStyle: 'solid',
-        borderColor: 'gray',
-        borderWidth: 0.3,
-        borderRadius: 20,
+        borderColor: '#787D9F',
+        borderWidth: 1,
+        borderRadius: 10,
+    },
+
+    countryTitle: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        fontSize: 17,
+        fontWeight: '400',
+        textAlign: "center",
+        textAlignVertical: 'center',
+        letterSpacing: 1
+    },
+
+    inputContainer: {
+        zIndex: -1,
+        flexDirection: 'row',
+        paddingHorizontal: 22,
+        marginBottom: 4,
+        width: 198,
+        height: 40,
+        marginTop: 9,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderStyle: 'solid',
+        borderColor: '#787D9F',
+        borderWidth: 1,
+        borderRadius: 10,
     },
     mask: {
-        margin: 0,
-        padding: 0,
-        color: '#C0C0C0',
-        fontSize: 20,
-        fontWeight: '100',
-        width: '100%',
-        height: '100%',
+        flex: 1,
+        justifyContent: 'flex-start',
+        alignItems: 'center',
+        color: '#FFFF',
+        fontSize: 17,
+        fontWeight: '400',
     },
     langIcon: {
         zIndex: 50,
         minWidth: '100%',
         minHeight: '15%',
-        paddingRight: "10%",
-        paddingTop: "15%",
+        paddingRight: 20,
+        paddingTop: 52,
         justifyContent: 'flex-start',
         alignItems: 'flex-end'
+    },
+    languageTitle: {
+        width: 23.26,
+        height: 12,
+        fontSize: 10,
+        fontWeight: '400',
+        color: '#fff',
+        paddingHorizontal: 8
     }
 });
 

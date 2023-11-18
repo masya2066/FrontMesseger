@@ -22,7 +22,7 @@ export default function Verify({navigate}: any) {
                 style={authStyle.background}
                 onPress={Keyboard.dismiss}
             >
-                <View style={{ flex: 1, alignItems: 'flex-start', justifyContent: 'flex-start'}}>
+                <View style={authStyle.logoContainer}>
                     <View style={authStyle.langIcon}>
                         <TouchableOpacity
                             onPress={() => {isLang === 'en' ? setLang('ru') : setLang('en')}}
@@ -63,7 +63,7 @@ export default function Verify({navigate}: any) {
                     containerStyle={authStyle.authBtnContainer}
                     buttonStyle={authStyle.authBtn}
                     titleStyle={authStyle.titleStyle}
-                    title={lang(isLang, 'auth_title')}
+                    title={lang(isLang, 'send_button')}
                 />
             </Pressable>
         </View>

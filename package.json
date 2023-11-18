@@ -16,6 +16,7 @@
     "@types/i18n-js": "^3.8.8",
     "@types/react-i18next": "^8.1.0",
     "@types/react-native": "^0.72.6",
+    "env": "^0.0.2",
     "eslint-plugin-react-native": "^4.1.0",
     "expo": "~49.0.15",
     "expo-status-bar": "~1.6.0",
@@ -27,17 +28,21 @@
     "npx": "^10.2.2",
     "react": "18.2.0",
     "react-native": "0.72.6",
+    "react-native-dotenv": "^3.4.9",
     "react-native-elements": "^3.4.3",
     "react-native-i18n": "^2.0.15",
-    "react-native-masked-text": "^1.13.0"
+    "react-native-masked-text": "^1.13.0",
+    "ts-node": "^10.9.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@tsconfig/react-native": "^3.0.2",
+    "@types/dotenv": "^8.2.0",
     "@types/jest": "^29.5.8",
     "@types/react": "^18.2.37",
     "@types/react-native-i18n": "^2.0.2",
     "@types/react-test-renderer": "^18.0.6",
+    "axios": "^1.6.1",
     "typescript": "^5.2.2"
   },
   "private": true
